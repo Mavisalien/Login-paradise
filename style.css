@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&family=Comic+Relief:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(45deg, #f7b3be, #eb6666, #f8f393);
+  background-attachment: fixed;
+  font-family: "Comic Relief", system-ui;
+  color: rgb(67, 75, 88);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  max-width: 30%;
+  margin: 90px auto;
+  border: 5px solid white;
+  border-radius: 20% 5%;
+  height: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  /*nessa parte vou colocar efeito de mouse over q muda a cor*/
+  font-size: 40px;
+  font-weight: 600;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.usoemail {
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.senha {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+
+
+.actions-container {
+  display: flex;
+  gap: 30px 10px;
+  font-size: 12px;
+}
+
+.entrar {
+  padding: 10px 40px;
+  margin-top: 50px;
+}
+
+.inscrever {
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+}
