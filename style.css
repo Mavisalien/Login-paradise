@@ -20,6 +20,7 @@ body {
 body.dark {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
   linear-gradient(45deg,  #f8f04d, #ff7189, #e65656);
+  color:rgb(109, 122, 143) ;
 }
 #toggle-tema {
   position: absolute;
@@ -40,13 +41,15 @@ a:hover {
 section {
   max-width: 450px; 
   width: 90%;
-  margin: 90px auto;
-  border: 5px solid white;
+  margin: 70px auto;
+  border: 3px solid white;
   border-radius: 20% 5%;
+  box-shadow: 0px 0px 5px 5px white;
   padding: 30px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+
 }
 
 .form-container {
@@ -59,7 +62,7 @@ section {
   font-size: 40px;
   font-weight: 600;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   text-shadow: 4px 0 0 #eb6666;
 }
@@ -87,7 +90,7 @@ section {
 .actions-container {
   display: flex;
   gap: 30px 10px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 #entrar {
@@ -114,6 +117,7 @@ section {
 
 footer {
   text-align: center;
+  font-size: 15px;
 }
 
  @media screen and (max-width: 600px){
@@ -134,4 +138,3 @@ section {
 
   
  }
-
